@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
-  <title>Lattitude</title>
+  <title>Lattitude: Comparison</title>
 </head>
 
 <body class="bg-secondary">
@@ -41,28 +41,32 @@
 </nav>
   <div class="container mt-4 bg-white">
     <!--Normally these medium columns go full wide on small screen sizes-->
+    
     <div class="row">
-      <div class="col-md-7 mb-3">
-        <div class="float-left"><h1 class="text-primary">Summary: Latitude vs. X</h1>
-          <p><img = src="images/LatitudeCloudiness.png" class="float-left" width="350">The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
-          <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+
+        <div class="float-left"><h1 class="text-primary">Comparison: Latitude vs. X</h1>
+          <p>Click any plot to get an in-depth analysis.</p>
           </div>
-      </div>
-      <div class="col-md-4 offset-md-1">
-        <div class="box skyblue"><h2 class="text-primary">Visualizations</h2>
-          <div class="row">
-            <div class="col-md-6 col-sm-3">
-              <a class="thumbnail" title="" href="max_temperature.html"><img = src="images/LatitudeTemperature.png" height="125" weight="125"></a>
-            </div>
-            <div class="col-md-6 col-sm-3">
-              <a class="thumbnail" title="" href="humidity.html"><img = src="images/LatitudeHumidity.png" height="125" weight="125"></a></div>
-            <div class="col-md-6 col-sm-3">
-              <a class="thumbnail" title="" href="cloudiness.html"><img = src="images/LatitudeCloudiness.png" height="125" weight="125"></a></div>
-            <div class="col-md-6 col-sm-3">
-              <a class="thumbnail" title="" href="mwind_speed.html"><img = src="images/LatitudeWindSpeed.png" height="125" weight="125"></a></div>
+
+    <div>
+      <div class="box skyblue"><h2 class="text-primary">Visualizations</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <p class="h6 text-center text-primary">vs. Maximum Temperature</p>
+            <a class="thumbnail" title="" href="max_temperature.html"><img = src="images/LatitudeTemperature.png" height="225" weight="225"></a>
           </div>
+          <div class="col-md-6">
+            <p class="h6 text-center text-primary">vs. Humidity</p>            
+            <a class="thumbnail" title="" href="humidity.html"><img = src="images/LatitudeHumidity.png" height="225" weight="225"></a></div>
+          <div class="col-md-6">
+            <p class="h6 text-center text-primary">vs. Cloudiness</p>            
+            <a class="thumbnail" title="" href="cloudiness.html"><img = src="images/LatitudeCloudiness.png" height="225" weight="225"></a></div>
+          <div class="col-md-6">
+            <p class="h6 text-center text-primary">vs. Wind Speed</p>            
+            <a class="thumbnail" title="" href="mwind_speed.html"><img = src="images/LatitudeWindSpeed.png" height="225" weight="225"></a></div>
         </div>
       </div>
+    </div>
     </div>
 
 <!-- Optional JavaScript -->

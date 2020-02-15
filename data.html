@@ -2,21 +2,48 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Data</title>
-<!-- Bootstrap CSS -->  
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
+  <title>Lattitude: Data</title>
 </head>
 
-<body>
+<body class="bg-secondary">
   
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="bg-primary">
+    <a class="navbar-brand text-light pl-3" href="index.html">Lattitude</a></div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Plots
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="max_temperature.html">Max. temperature</a>
+            <a class="dropdown-item" href="humidity.html">Humidity</a>
+            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+            <a class="dropdown-item" href="wind_speed.html">Wind speed</a>          
+          </div>
+        </li>      
+        <li class="nav-item">
+          <a class="nav-link" href="comparison.html">Comparison</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="data.html">Data</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-  <div class="container">
-<p>The following table includes all the data used for plotting during this project.</p>
-  </div>
-  <div class="container">
-    <table class="table">
+
+  <div class="container bg-white">
+      <p class="mt-4">The following table includes all the data used for plotting during this project.</p>
+    <table class="table table-responsive table-sm table-striped">
       <thead>
         <tr style="text-align: right;">
           <th></th>
