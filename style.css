@@ -1,4 +1,4 @@
 .thumbnail:hover {
   opacity: 0.5;
-  border:1px solid aqua;
+  outline: 2px solid mediumturquoise;
   }
