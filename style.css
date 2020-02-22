@@ -1,4 +1,72 @@
+/* Main pages */
+
+.thumbnail {
+  margin-bottom: 12px;
+  height: auto;  
+  }
+
 .thumbnail:hover {
   opacity: 0.5;
   outline: 2px solid mediumturquoise;
   }
+
+@media only screen and (max-width: 1199px) {
+  .thumbnail {
+    width: 135px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+  .thumbnail {
+    width: 100px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+  .thumbnail {
+    width: 115px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+  .thumbnail {
+    width: auto;
+    }
+}
+
+/* Comparison page */
+
+.thumbnail_comp {
+  margin-bottom: 12px;
+  height: auto;  
+  }
+
+.thumbnail_comp:hover {
+  opacity: 0.5;
+  outline: 2px solid mediumturquoise;
+  }
+
+@media only screen and (max-width: 991px) {
+  .thumbnail_comp {
+    width: 300px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+  .thumbnail_comp {
+    width: auto;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+  .thumbnail_comp {
+    width: auto;
+    }
+}
+
+/* Footer */
+
+.footer {
+  padding-top: 5px; 
+  padding-bottom: 5px;
+}
